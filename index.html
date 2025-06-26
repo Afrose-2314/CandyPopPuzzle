@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🍭 Candy Pop Puzzle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>🍭 Candy Pop Puzzle</h1>
+    <div class="info-panel">
+      <p>🎯 Target Shape: <span id="target-shape">-</span></p>
+      <p>⏱️ Time Left: <span id="timer">30</span>s</p>
+      <p>🏆 Score: <span id="score">0</span></p>
+    </div>
+    <div id="game-board"></div>
+    <div id="message"></div>
+    <button id="start-btn" onclick="startGame()">▶️ Start Game</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
